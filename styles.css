@@ -1,0 +1,223 @@
+.header{
+ width: 100%;
+ height: 100%;
+}
+.LI p{
+    color: #fce38a;
+    font-family: "Montserrat";
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #f38181;
+    display: inline;
+    text-align: center;
+    margin: 0 50px 50px 0;
+    text-decoration: none;
+
+}
+.h1_header{
+    width: 86px;
+    height: 23px;
+    color: #95e1d3;
+    color: #ffffff;
+    font-family: Montserrat;
+    font-size: 30px;
+    font-weight: 700;
+    color: #95e1d3;
+    text-transform: uppercase;
+    color: #95e1d3;
+    margin-left: 40px;
+    display: block;
+    text-align: center;
+    padding-top: 40px;
+}
+.div2_body p{
+    width: 130px;
+    height: 24px;
+    color: #333333;
+    font-family: "Kaushan Script";
+    font-size: 24px;
+    font-weight: 400;
+    text-align: center;
+    display: inline;
+    justify-content: space-between;
+} 
+.div2_body h1{
+    height: 23px;
+    color: #333333;
+    font-family: "Montserrat";
+    font-size: 30px;
+    font-weight: 700;
+    text-transform: uppercase;
+    justify-content: space-between;
+}
+.div2_body{
+    height: 710px;
+    width: 1148px;
+    text-align: center;
+    margin-bottom: 779px; 
+    position: relative;
+}
+.img__body{
+    margin-left: 0;
+}
+.li1__body{
+    width: 329px;
+    height: 69px;
+    position: absolute;
+    border-left: 40px;
+    margin-left: 0;
+    top: 300px;
+    left: 250px;
+}
+.li2__body{
+    width: 329px;
+    height: 69px;
+    position: absolute;
+    border-left: 40px;
+    display: flex;
+}
+.li3__body{
+    width: 329px;
+    height: 69px;
+    position: absolute;
+    border-left: 40px;
+    margin-right: 0;
+}
+.li4__body{
+    width: 329px;
+    height: 69px;
+    position: absolute;
+    border-left: 40px;
+    margin-left: 0;
+}
+.li5__body{
+    width: 329px;
+    height: 69px;
+    position: absolute;
+    border-left: 40px;
+    display: flex;
+}
+.li6__body{
+    width: 329px;
+    height: 69px;
+    position: absolute;
+    border-left: 40px;
+    margin-right: 0;
+}
+.P_header{
+    width: 51px;
+    height: 10px;
+    color: #f38181;
+}
+.div123{
+    justify-content: space-between; 
+    display: flex;
+    margin-right: 5px;
+}
+.footer{
+    width: 1210px;
+    height: 833px;
+    margin-left: 350px;
+    margin-right: 360px;
+    margin-top: 689px;
+    margin-bottom: 149px;
+}
+.section {
+    padding-top: 50px;
+}
+.cards {
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    width: 1200px;
+}
+.img-container {
+    position: relative;
+    height: 470px;
+    width: 380px;
+    background-color: #95e1d3;
+}
+.card-img__1 {
+    width: 100%;
+    height: 100%;
+}
+.img-description {
+    text-align: center;
+}
+.description__name {
+    margin: 25px 0 10px 0;
+    font-size: 14px;
+    font-family: "Montserrat";
+    color: rgb(51, 51, 51);
+}
+.description__work {
+    font-size: 15px;
+    font-family: "Roboto";
+    color: rgb(153, 153, 153);
+    font-style: italic;
+}
+.div_section{
+    text-align: center;
+    border-bottom: 5px;
+}
+.p_section{
+    text-align: center;
+    width: 109px;
+    height: 23px;
+    color: #333333;
+    font-family: "Kaushan Script";
+    font-size: 24px;
+    font-weight: 400;
+}
+.h1_section{
+    border-top: 23px;
+    text-align: center;
+    width: 262px;
+    height: 23px;
+    color: #333333;
+    font-family:"Montserrat";
+    font-size: 30px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.img__shadow {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    visibility: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(to bottom, #ef898a, #f89a82, #faae7d, #f7c37e, #f0d887);
+    opacity: 0.8;
+}
+.img-container:hover > .hover > .img__shadow {
+    visibility: visible;
+}
+.img-container:hover > .hover{
+    transform: translate(-15px, -15px);
+}
+.hover {
+    width: 100%;
+    height: 100%;
+}
+.icons__list {
+    display: flex;
+    justify-content: space-between;
+    width: 225px;
+    height: 55px;
+}
+.icon__item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 24.5%;
+    background-color: #fce38a;
+}
+.icon__item:hover {
+    background-color: #95e1d3;
+}
