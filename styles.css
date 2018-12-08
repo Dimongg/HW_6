@@ -58,13 +58,31 @@
     margin-bottom: 779px; 
     position: relative;
 }
+.div3_body{
+    width: 1138px;
+    height: 69px;
+    text-align: center;
+    margin-top: 350px;  
+    background-color: #212121;
+    justify-content: space-between;
+    display: inline-block;
+}
+.div4_body{
+    width: 1147px;
+    height: 71px;
+    text-align: center;
+    margin-top: 530px;
+    background-color: #212121;
+   justify-content: space-between;
+   display: inline-block;
+}
 .img__body{
-    margin-left: 0;
+    position: absolute;
 }
 .li1__body{
     width: 329px;
     height: 69px;
-    position: absolute;
+    position: relative;
     border-left: 40px;
     margin-left: 0;
     top: 300px;
@@ -73,37 +91,52 @@
 .li2__body{
     width: 329px;
     height: 69px;
-    position: absolute;
-    border-left: 40px;
+    position: relative;
+    border: 80px;
     display: flex;
 }
 .li3__body{
     width: 329px;
     height: 69px;
-    position: absolute;
-    border-left: 40px;
+    position: relative;
+   
     margin-right: 0;
 }
 .li4__body{
     width: 329px;
     height: 69px;
-    position: absolute;
+    position: relative;
     border-left: 40px;
     margin-left: 0;
 }
 .li5__body{
     width: 329px;
     height: 69px;
-    position: absolute;
-    border-left: 40px;
+    position: relative;
+    border: 80px;
     display: flex;
 }
 .li6__body{
     width: 329px;
     height: 69px;
-    position: absolute;
+    position: relative;
     border-left: 40px;
     margin-right: 0;
+}
+.p_div2_boddy{
+    text-align: center;
+    color: #333333;
+    font-family: "Kaushan Script";
+    font-size: 24px;
+    font-weight: 400;
+}
+.h1_div2_body{
+    text-align: center;
+    color: #333333;
+    font-family: "Montserrat";
+    font-size: 30px;
+    font-weight: 700;
+    text-transform: uppercase;
 }
 .P_header{
     width: 51px;
@@ -163,8 +196,6 @@
 }
 .p_section{
     text-align: center;
-    width: 109px;
-    height: 23px;
     color: #333333;
     font-family: "Kaushan Script";
     font-size: 24px;
@@ -173,8 +204,6 @@
 .h1_section{
     border-top: 23px;
     text-align: center;
-    width: 262px;
-    height: 23px;
     color: #333333;
     font-family:"Montserrat";
     font-size: 30px;
